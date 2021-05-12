@@ -1,3 +1,16 @@
+# TailwindCSS with React.js
+
+- A mock company website in the making styled with TailwindCSS.
+
+# To-do
+
+- Logo
+- Mock products
+- Animations/Effects
+- More styling
+- Smooth scroll
+- Navbar items
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
