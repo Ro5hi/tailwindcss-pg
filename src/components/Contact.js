@@ -2,12 +2,13 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className="flex bg-gray-800 h-screen justify-center items-center">
-            <div className="">
-                <input type="text" className="text-center h-32 w-72" placeholder="Happy to help. Send us a message!"></input>
-            <div className="bg-black text-white text-center">
-                <button>Send</button>
-            </div>
+        <div className="flex bg-gray-800 h-screen space-x-8 justify-center items-center">
+            <p className="text-white text-2xl">Need support? <br/>Contact us anytime.</p>
+            <div className="w-1/16">
+                <input type="text" className="h-64 w-72 text-center" placeholder="Type your message here."></input>
+                <div className="relative w-full bottom-0 bg-green-400 text-white text-center">
+                    <button>Send Message</button>
+                </div>
             </div>
         </div>
     );
