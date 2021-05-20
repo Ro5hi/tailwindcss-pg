@@ -8,7 +8,7 @@ import Footer from './components/Footer.js';
 
 function App() {
   return (
-    <div className="app">
+    <div className="w-screen">
       <Nav />
       <Hero />
       <Info />
