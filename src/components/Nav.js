@@ -4,10 +4,10 @@ const Nav = () => {
     return (
         <div className="flex fixed justify-between items-center w-screen h-16 bg-yellow-300 relative">
             <div className="text-black mx-auto p-4 text-center">
-                <Link smooth to="#info" className="p-4">
+                <Link smooth to="#info" className="p-4 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-25">
                     INFO
                 </Link>
-                <Link smooth to="#contact" className="p-4">
+                <Link smooth to="#contact" className="p-4 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-25">
                     CONTACT
                 </Link>
             </div>
