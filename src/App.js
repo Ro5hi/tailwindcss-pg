@@ -15,7 +15,7 @@ function App() {
   const Contact = React.lazy(() => import('./components/Contact'))
 
   return (
-    <div className="w-screen">
+    <div className="">
       <Suspense fallback={""}>
       <BrowserRouter>
         <Switch>
