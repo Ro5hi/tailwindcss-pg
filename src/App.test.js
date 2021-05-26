@@ -1,8 +1,12 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Nav from './components/Nav';
+import Hero from './components/Hero';
+import Info from './components/Info';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+describe("Renders components", () => {
+  it("renders App component"), () => {
+    shallow(<App />)
+  }
+})
