@@ -20,6 +20,8 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
-    require('tailwindcss-children')
+    require('tailwindcss-children'),
+    require('tailwindcss'),
+    require('autoprefixer')
   ],
 }
