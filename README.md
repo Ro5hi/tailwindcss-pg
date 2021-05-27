@@ -27,4 +27,4 @@ A mock website with React.js running in the frontend and styled with TailwindCSS
 
 ## Demo
 
-[Netlify Demo]()
+[Netlify Demo](https://onboard-tailwind.netlify.app)
