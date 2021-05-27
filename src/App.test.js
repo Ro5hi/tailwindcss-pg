@@ -28,7 +28,7 @@ describe("component rendering", () => {
     const hero = shallow(<Hero />);
     const imgSrc = (<img src="/easternwaves.svg" alt="graphic"></img>);
     expect(hero.contains(imgSrc)).toEqual(true);
-  })
+  });
   it("renders Info component with grid", () => {
     const infoSection = shallow(<Info />);
     const infoGrid = (<div className="grid grid-cols-3 gap-2 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3">
@@ -52,5 +52,11 @@ describe("component rendering", () => {
                           </div>
                       </div>);
     expect(infoSection.contains(infoGrid)).toEqual(true);
-  })
+  });
+  it("renders Contact component", () => {
+    shallow(<Contact />);
+  });
+  it("renders Footer component", () => {
+    shallow(<Footer />)
+  });
 })
