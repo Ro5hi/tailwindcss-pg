@@ -8,7 +8,7 @@ const Hero = () => {
                 <div className="select-none text-6xl text-center italic text-opacity-70 font-bold">
                     ONBOARD
                     <p className="text-center text-lg p-4 italic text-opacity-35 font-light">
-                        Using old technology to impact communities.
+                        Upcycling old hardware into new tech.
                     </p>
                 </div>
             </div>
