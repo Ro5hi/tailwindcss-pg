@@ -13,6 +13,20 @@ describe("component rendering", () => {
     shallow(<App />);
   });
   it("renders Nav component with Nav items", () => {
-    shallow(<Nav />)
+    const navBar = shallow(<Nav />);
+    const navItems = (<div className="text-black mx-auto p-4 text-center">
+        <Link smooth to="#info" className="p-4 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-25">
+            INFO
+        </Link>
+        <Link smooth to="#contact" className="p-4 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-25">
+            CONTACT
+        </Link>
+    </div>);
+    expect(navBar.contains(navItems)).toEqual(true);
+  });
+  it("renders Hero component with logo", () => {
+    const hero = shallow(<Hero />);
+    const imgSrc = (<img src="/easternwaves.svg" alt="graphic"></img>);
+    expect(hero.contains(imgSrc)).toEqual(true);
   })
 })
