@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import { HashLink as Link } from 'react-router-hash-link';
 import App from './App';
 import Nav from './components/Nav';
