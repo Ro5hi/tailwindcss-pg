@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className="select-none flex bg-gray-800 h-screen space-x-8 justify-center items-center" id="contact">
+        <div className="select-none flex bg-gray-800 h-screen w-full space-x-8 justify-center items-center" id="contact">
             <p className="text-white text-2xl md:text-left">Changing the world? <br/>Let us know.</p>
             <div className="w-1/16">
                 <input type="text" className="h-64 w-72 text-center focus:outline-none" placeholder="Type your message here."></input>
