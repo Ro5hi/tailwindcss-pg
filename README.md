@@ -9,8 +9,10 @@ A mock website with React.js running in the frontend and styled with TailwindCSS
 
 ## Screenshot
 
+![Preview](https://imgur.com/SJn86Bq.gif)
 ![Hero](https://imgur.com/RwRX6nb.jpg)
 ![Grid](https://imgur.com/QyUH8nd.jpg)
+![Hover](https://imgur.com/uebluJP.gif)
 ![Contact](https://imgur.com/6MxUzlM.jpg)
 
 ## Open source art from:
