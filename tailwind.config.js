@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [false],
+  purge: [],
   darkMode: 'media',
   theme: {
     extend: {
@@ -18,5 +18,8 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+    require('tailwindcss-childrenn')
+  ],
 }
