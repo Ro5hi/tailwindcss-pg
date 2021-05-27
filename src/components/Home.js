@@ -7,7 +7,7 @@ import Footer from './Footer';
 
 const Home = () => {
     return (
-        <div className="w-screen overflow-hidden">
+        <div className="overflow-hidden">
             <Nav />
             <Hero />
             <Info />
