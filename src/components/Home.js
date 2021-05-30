@@ -6,7 +6,7 @@ import Footer from './Footer';
 
 const Home = () => {
     return (
-        <div className="overflow-hidden">
+        <div className="overflow-hidden w-full">
             <Nav />
             <Hero />
             <Info />
